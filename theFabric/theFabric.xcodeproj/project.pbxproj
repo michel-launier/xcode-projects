@@ -14,6 +14,7 @@
 		D0C1F9412B108CFE005C171B /* theFabricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C1F9402B108CFE005C171B /* theFabricTests.swift */; };
 		D0C1F94B2B108CFE005C171B /* theFabricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C1F94A2B108CFE005C171B /* theFabricUITests.swift */; };
 		D0C1F94D2B108CFE005C171B /* theFabricUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C1F94C2B108CFE005C171B /* theFabricUITestsLaunchTests.swift */; };
+		D0C1F95B2B108F2D005C171B /* Validity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C1F95A2B108F2D005C171B /* Validity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D0C1F9462B108CFE005C171B /* theFabricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = theFabricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C1F94A2B108CFE005C171B /* theFabricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theFabricUITests.swift; sourceTree = "<group>"; };
 		D0C1F94C2B108CFE005C171B /* theFabricUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theFabricUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0C1F95A2B108F2D005C171B /* Validity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		D0C1F92D2B108CFD005C171B /* theFabric */ = {
 			isa = PBXGroup;
 			children = (
+				D0C1F9592B108E34005C171B /* Constituent */,
 				D0C1F92E2B108CFD005C171B /* theFabricApp.swift */,
 				D0C1F9302B108CFD005C171B /* ContentView.swift */,
 				D0C1F9322B108CFE005C171B /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				D0C1F94C2B108CFE005C171B /* theFabricUITestsLaunchTests.swift */,
 			);
 			path = theFabricUITests;
+			sourceTree = "<group>";
+		};
+		D0C1F9592B108E34005C171B /* Constituent */ = {
+			isa = PBXGroup;
+			children = (
+				D0C1F95A2B108F2D005C171B /* Validity.swift */,
+			);
+			path = Constituent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C1F9312B108CFD005C171B /* ContentView.swift in Sources */,
+				D0C1F95B2B108F2D005C171B /* Validity.swift in Sources */,
 				D0C1F92F2B108CFD005C171B /* theFabricApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
