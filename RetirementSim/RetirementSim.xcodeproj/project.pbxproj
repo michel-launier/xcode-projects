@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09EE6382B15E93700A398DD /* RetirementSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6372B15E93700A398DD /* RetirementSimApp.swift */; };
+		D09EE63A2B15E93700A398DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6392B15E93700A398DD /* ContentView.swift */; };
+		D09EE63C2B15E93800A398DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09EE63B2B15E93800A398DD /* Assets.xcassets */; };
+		D09EE6402B15E93800A398DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09EE63F2B15E93800A398DD /* Preview Assets.xcassets */; };
+		D09EE64A2B15E93800A398DD /* RetirementSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6492B15E93800A398DD /* RetirementSimTests.swift */; };
+		D09EE6542B15E93800A398DD /* RetirementSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6532B15E93800A398DD /* RetirementSimUITests.swift */; };
+		D09EE6562B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6552B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09EE6462B15E93800A398DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09EE62C2B15E93700A398DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09EE6332B15E93700A398DD;
+			remoteInfo = RetirementSim;
+		};
+		D09EE6502B15E93800A398DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09EE62C2B15E93700A398DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09EE6332B15E93700A398DD;
+			remoteInfo = RetirementSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09EE6342B15E93700A398DD /* RetirementSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09EE6372B15E93700A398DD /* RetirementSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementSimApp.swift; sourceTree = "<group>"; };
+		D09EE6392B15E93700A398DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D09EE63B2B15E93800A398DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09EE63D2B15E93800A398DD /* RetirementSim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetirementSim.entitlements; sourceTree = "<group>"; };
+		D09EE63F2B15E93800A398DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D09EE6452B15E93800A398DD /* RetirementSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09EE6492B15E93800A398DD /* RetirementSimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementSimTests.swift; sourceTree = "<group>"; };
+		D09EE64F2B15E93800A398DD /* RetirementSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09EE6532B15E93800A398DD /* RetirementSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementSimUITests.swift; sourceTree = "<group>"; };
+		D09EE6552B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementSimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09EE6312B15E93700A398DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EE6422B15E93800A398DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EE64C2B15E93800A398DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09EE62B2B15E93700A398DD = {
+			isa = PBXGroup;
+			children = (
+				D09EE6362B15E93700A398DD /* RetirementSim */,
+				D09EE6482B15E93800A398DD /* RetirementSimTests */,
+				D09EE6522B15E93800A398DD /* RetirementSimUITests */,
+				D09EE6352B15E93700A398DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09EE6352B15E93700A398DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09EE6342B15E93700A398DD /* RetirementSim.app */,
+				D09EE6452B15E93800A398DD /* RetirementSimTests.xctest */,
+				D09EE64F2B15E93800A398DD /* RetirementSimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09EE6362B15E93700A398DD /* RetirementSim */ = {
+			isa = PBXGroup;
+			children = (
+				D09EE6372B15E93700A398DD /* RetirementSimApp.swift */,
+				D09EE6392B15E93700A398DD /* ContentView.swift */,
+				D09EE63B2B15E93800A398DD /* Assets.xcassets */,
+				D09EE63D2B15E93800A398DD /* RetirementSim.entitlements */,
+				D09EE63E2B15E93800A398DD /* Preview Content */,
+			);
+			path = RetirementSim;
+			sourceTree = "<group>";
+		};
+		D09EE63E2B15E93800A398DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D09EE63F2B15E93800A398DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D09EE6482B15E93800A398DD /* RetirementSimTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09EE6492B15E93800A398DD /* RetirementSimTests.swift */,
+			);
+			path = RetirementSimTests;
+			sourceTree = "<group>";
+		};
+		D09EE6522B15E93800A398DD /* RetirementSimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D09EE6532B15E93800A398DD /* RetirementSimUITests.swift */,
+				D09EE6552B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift */,
+			);
+			path = RetirementSimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09EE6332B15E93700A398DD /* RetirementSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09EE6592B15E93800A398DD /* Build configuration list for PBXNativeTarget "RetirementSim" */;
+			buildPhases = (
+				D09EE6302B15E93700A398DD /* Sources */,
+				D09EE6312B15E93700A398DD /* Frameworks */,
+				D09EE6322B15E93700A398DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetirementSim;
+			productName = RetirementSim;
+			productReference = D09EE6342B15E93700A398DD /* RetirementSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09EE6442B15E93800A398DD /* RetirementSimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09EE65C2B15E93800A398DD /* Build configuration list for PBXNativeTarget "RetirementSimTests" */;
+			buildPhases = (
+				D09EE6412B15E93800A398DD /* Sources */,
+				D09EE6422B15E93800A398DD /* Frameworks */,
+				D09EE6432B15E93800A398DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09EE6472B15E93800A398DD /* PBXTargetDependency */,
+			);
+			name = RetirementSimTests;
+			productName = RetirementSimTests;
+			productReference = D09EE6452B15E93800A398DD /* RetirementSimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09EE64E2B15E93800A398DD /* RetirementSimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09EE65F2B15E93800A398DD /* Build configuration list for PBXNativeTarget "RetirementSimUITests" */;
+			buildPhases = (
+				D09EE64B2B15E93800A398DD /* Sources */,
+				D09EE64C2B15E93800A398DD /* Frameworks */,
+				D09EE64D2B15E93800A398DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09EE6512B15E93800A398DD /* PBXTargetDependency */,
+			);
+			name = RetirementSimUITests;
+			productName = RetirementSimUITests;
+			productReference = D09EE64F2B15E93800A398DD /* RetirementSimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09EE62C2B15E93700A398DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D09EE6332B15E93700A398DD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D09EE6442B15E93800A398DD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D09EE6332B15E93700A398DD;
+					};
+					D09EE64E2B15E93800A398DD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D09EE6332B15E93700A398DD;
+					};
+				};
+			};
+			buildConfigurationList = D09EE62F2B15E93700A398DD /* Build configuration list for PBXProject "RetirementSim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09EE62B2B15E93700A398DD;
+			productRefGroup = D09EE6352B15E93700A398DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09EE6332B15E93700A398DD /* RetirementSim */,
+				D09EE6442B15E93800A398DD /* RetirementSimTests */,
+				D09EE64E2B15E93800A398DD /* RetirementSimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09EE6322B15E93700A398DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EE6402B15E93800A398DD /* Preview Assets.xcassets in Resources */,
+				D09EE63C2B15E93800A398DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EE6432B15E93800A398DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EE64D2B15E93800A398DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09EE6302B15E93700A398DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EE63A2B15E93700A398DD /* ContentView.swift in Sources */,
+				D09EE6382B15E93700A398DD /* RetirementSimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EE6412B15E93800A398DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EE64A2B15E93800A398DD /* RetirementSimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EE64B2B15E93800A398DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09EE6542B15E93800A398DD /* RetirementSimUITests.swift in Sources */,
+				D09EE6562B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09EE6472B15E93800A398DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09EE6332B15E93700A398DD /* RetirementSim */;
+			targetProxy = D09EE6462B15E93800A398DD /* PBXContainerItemProxy */;
+		};
+		D09EE6512B15E93800A398DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09EE6332B15E93700A398DD /* RetirementSim */;
+			targetProxy = D09EE6502B15E93800A398DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D09EE6572B15E93800A398DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D09EE6582B15E93800A398DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D09EE65A2B15E93800A398DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RetirementSim/RetirementSim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetirementSim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogikEdge.RetirementSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D09EE65B2B15E93800A398DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RetirementSim/RetirementSim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetirementSim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogikEdge.RetirementSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D09EE65D2B15E93800A398DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogikEdge.RetirementSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetirementSim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetirementSim";
+			};
+			name = Debug;
+		};
+		D09EE65E2B15E93800A398DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogikEdge.RetirementSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetirementSim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetirementSim";
+			};
+			name = Release;
+		};
+		D09EE6602B15E93800A398DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogikEdge.RetirementSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetirementSim;
+			};
+			name = Debug;
+		};
+		D09EE6612B15E93800A398DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogikEdge.RetirementSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetirementSim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09EE62F2B15E93700A398DD /* Build configuration list for PBXProject "RetirementSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EE6572B15E93800A398DD /* Debug */,
+				D09EE6582B15E93800A398DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09EE6592B15E93800A398DD /* Build configuration list for PBXNativeTarget "RetirementSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EE65A2B15E93800A398DD /* Debug */,
+				D09EE65B2B15E93800A398DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09EE65C2B15E93800A398DD /* Build configuration list for PBXNativeTarget "RetirementSimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EE65D2B15E93800A398DD /* Debug */,
+				D09EE65E2B15E93800A398DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09EE65F2B15E93800A398DD /* Build configuration list for PBXNativeTarget "RetirementSimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09EE6602B15E93800A398DD /* Debug */,
+				D09EE6612B15E93800A398DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09EE62C2B15E93700A398DD /* Project object */;
+}
