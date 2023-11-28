@@ -14,6 +14,7 @@
 		D09EE64A2B15E93800A398DD /* RetirementSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6492B15E93800A398DD /* RetirementSimTests.swift */; };
 		D09EE6542B15E93800A398DD /* RetirementSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6532B15E93800A398DD /* RetirementSimUITests.swift */; };
 		D09EE6562B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6552B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift */; };
+		D09EE6632B15EA6500A398DD /* Inflation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09EE6622B15EA6500A398DD /* Inflation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D09EE64F2B15E93800A398DD /* RetirementSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09EE6532B15E93800A398DD /* RetirementSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementSimUITests.swift; sourceTree = "<group>"; };
 		D09EE6552B15E93800A398DD /* RetirementSimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementSimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D09EE6622B15EA6500A398DD /* Inflation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inflation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D09EE63B2B15E93800A398DD /* Assets.xcassets */,
 				D09EE63D2B15E93800A398DD /* RetirementSim.entitlements */,
 				D09EE63E2B15E93800A398DD /* Preview Content */,
+				D09EE6622B15EA6500A398DD /* Inflation.swift */,
 			);
 			path = RetirementSim;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				D09EE63A2B15E93700A398DD /* ContentView.swift in Sources */,
 				D09EE6382B15E93700A398DD /* RetirementSimApp.swift in Sources */,
+				D09EE6632B15EA6500A398DD /* Inflation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
